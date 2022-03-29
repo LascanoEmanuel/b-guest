@@ -1,0 +1,103 @@
+.body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav {
+    height:110px ;
+}
+nav h1{
+    margin-left: 50px;
+}
+
+
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    height: 800px;
+}
+.imagen{
+    
+    width: 300px;
+    height: 100px;
+    padding-left: 0px;
+    margin-left: 45px;
+}
+.ingreso{
+    background-color: rgb(198, 211, 211);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(173, 170, 170);
+    width: 100%;
+}
+.inicio{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 50px;  
+}
+.bg-primary {
+    background-color: #6171896b!important;
+}
+.inicio h1{
+    color: rgba(6, 6, 121, 0.61);
+    text-align: center;
+}
+.menu{
+    background-color: rgb(18, 18, 66);
+    height: 100%;
+    
+}
+.otro_menu{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    align-items: center;
+}
+.otro_menu li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin-left: 0px;
+    width: 150px;
+    padding-top: 10px;
+}
+.otro_menu li a img{
+   
+   width: 80px;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+
+    
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .cuerpo {
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+    .menu {
+     display: grid;
+     grid-template-columns: 50% 50%;
+     height: 200px;
+     
+    }
+.otro_menu{
+    height: 200px;
+}
+.otro_menu ul{
+    display: flex;
+}
+
+}
